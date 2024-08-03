@@ -13,9 +13,7 @@ int main()
     while(start < end)
     {
 
-        temp  = start;
-        start = end;
-        end = temp c;
+        swap(start , end);
         start++;
         end--;
 
